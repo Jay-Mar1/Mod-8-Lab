@@ -1,0 +1,13 @@
+def equals():
+    
+    x = int(input("Enter a value in numerical form: "))
+    y = int(input("Enter a second value in numerical form: "))
+
+    if x + y == 10:
+        print("Your combined values are equal to 10")
+    elif x + y > 10:
+        print("Your combined values are greater than 10")
+    else:
+        print("Your combined values are less than 10")
+        
+equals()        
