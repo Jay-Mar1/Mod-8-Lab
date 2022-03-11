@@ -1,0 +1,29 @@
+def task1():
+    
+    if ("rope" in item_list) and ("coat" in item_list) and ("first aid kit" in item_list) and (debuff != "slow"):
+        print("You can climb a mountain")
+    else:
+        print("You can not climb a mountain")
+
+def task2():
+    if ("pan") and ("groceries" in item_list) and (debuff != "small"):
+        print("You can cook a meal") 
+    else:
+        print("You can not cook a meal")
+
+def task3():
+    if ("pen" in item_list) and ("paper" in item_list) and ("idea" in item_list) and (debuff != "confusion"):
+        print("You can write a book")
+    else:
+        print("You can not write a book")
+    
+
+item_list = ["pan", "paper", "idea", "rope", "groceries"]
+debuff = "slow"
+
+    
+    
+task1()
+task2()
+task3()
+
